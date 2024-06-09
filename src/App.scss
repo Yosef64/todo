@@ -1,0 +1,85 @@
+.App{
+    margin: 0;
+    height: 100vh;
+    
+    display: flex;
+    // max-height: 90%;
+    // overflow-y: ;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #f5f5f5;
+    .container{
+        position: relative;
+        width: 80%;
+        height: 80%;
+        
+        
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        border-radius: 3px;
+        justify-content: space-between;
+        background-color: white;
+        .container1{
+            // position: absolute;
+            padding: 0px 30px;
+            margin: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .c2{
+                display: flex;
+                align-items: center;
+                div{
+                    padding-right: 2px;
+                }
+            }
+            button{
+                border: none;
+                background-color: white;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+            
+        }
+        .search{
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            input{
+                height: 5vh;
+                width: 75%;}
+        }
+        
+        .add{
+            display: flex;
+            padding-top: 10px;
+            justify-content: center;
+            input{
+                width: 70%;
+                height: 5vh;
+                margin-right: 30px;
+            }
+            button{
+                color: white;
+                border: none;
+                border-radius: 3px;
+                width: 10%;
+                background-color: #264FAD;
+                font-size: 15px;
+                font-family: "Exo 2",sans-serif;
+                :focus{
+                    box-shadow: #264FAD;
+                }
+                
+
+            }
+        }
+
+    }
+}
